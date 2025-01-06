@@ -33,5 +33,6 @@
 <br/><br/>
 ## 4. LLM Foundation model
 - GPT-2
-- huggingface name : skt/kogpt2-base-v2
+- huggingface name : skt/kogpt2-base-v2 /n
+
 ( 용량이 큰 파일은 업로드 하지 않았습니다. )
