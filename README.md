@@ -69,7 +69,7 @@ pdf document
 ## 8. Streamlit Chat APP
 webpage link : http://localhost:8501/
 
-<img width="1377" alt="webpage" src="https://github.com/user-attachments/assets/7ee69ab2-450a-4c5a-ac3e-66b2564717c3"  width="200" height="400"/>
+<img width="1377" alt="webpage" src="https://github.com/user-attachments/assets/7ee69ab2-450a-4c5a-ac3e-66b2564717c3" width="150" height="600"/>
 
 
 ( 성능 높이기 위한 디벨롭롭 중에 있습니다. )
