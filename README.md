@@ -68,7 +68,7 @@ pdf document
 <br/><br/>
 ## 8. Streamlit Chat APP
 webpage link : http://localhost:8501/
-<img src="https://github.com/user-attachments/assets/f9da09e1-3801-41af-9293-249a4876dc44.png" width="200" height="200"/>
+<img src="https://github.com/user-attachments/assets/f9da09e1-3801-41af-9293-249a4876dc44.png">
 
 
 
