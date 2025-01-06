@@ -33,6 +33,38 @@
 <br/><br/>
 ## 4. LLM Foundation model
 - GPT-2
-- huggingface name : skt/kogpt2-base-v2 /n
+- huggingface name : skt/kogpt2-base-v2
 
 ( 용량이 큰 파일은 업로드 하지 않았습니다. )
+
+<br/><br/>
+## 5. Fine Tuning model
+> PEFT
+### LoRA
+- task type : CAUSAL_LM
+- target modules : "c_proj"
+- train batch size = 16
+- gradient accumulation steps = 4
+ - save steps = 500
+
+<br/><br/>
+## 6. Vector DB
+> pdf document
+1. 심리 상담에서 상담자가 주의해야 할 내용
+2. 아동 혹은 청소년 심리 평가를 수행하기 위한 질문
+3. 한국어 심리 상담 데이터셋
+   - 멀티턴 대화 데이터
+   - 지칭 대상, 인사말, 반복어 제외
+   - [Github] CounselGPT
+         질의, 답변은 OpenAI API 통해 구축
+
+> **split 188 documents into 1105 chunks**
+
+<br/><br/>
+## 7. Rag inference
+- 유사도 점수 필터링 -2 ~ 2 허용
+- Instruction, Context, Question, Answer
+
+<br/><br/>
+## 8. Streamlit Chat APP
+webpage link : http://localhost:8501/
